@@ -15,9 +15,6 @@ window.addEventListener('load', function () {
   inner.setAttribute('src', site);
   inner.setAttribute('scrolling', "no");
   inner.setAttribute('title', "Lifeforms");
-  inner.style.width = '1000px';
-  inner.style.height = '500px';
-  inner.style.overflow = 'hidden';
 
   const arrow = document.createElement("img"); 
   arrow.setAttribute('src', 'https://possible.social/arrow.png');
